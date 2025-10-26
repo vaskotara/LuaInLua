@@ -1,4 +1,4 @@
-local unpack = table and table.unpack or unpack;
+local unpack = (table and table.unpack) or unpack;
 local getfenv = getfenv or function()
 	return _ENV or _G or nil
 end;
